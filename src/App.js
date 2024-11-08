@@ -3,9 +3,10 @@ import './App.css';
 import React from 'react';
 import Header from './header';
 import Social from './social';
-import Footer from './footer';
 import Team from './team';
 import Cloud from './cloud';
+import Footer from './footer';
+
 
 
 const App = () => {
@@ -13,8 +14,8 @@ const App = () => {
     <div>
       <Header />
       <main>
-        <Team />
         <Social />
+        <Team />
         <Cloud />
       </main>
       <Footer />
