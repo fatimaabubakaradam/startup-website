@@ -16,7 +16,7 @@ body{
 .logo-text{
   color: #FFF;
   padding-left: 30px;
-  Weight: 500;
+  /* Weight: 500; */
   size: 30px;
   line-height: 37.5px;
   font-size: 40px;
@@ -89,7 +89,7 @@ body{
   transform: translateY(90%);
 }
 .team{
-  margin-top: 110px;
+  margin-top: 120px;
   margin-left: 100px;
 }
 .team-text{
@@ -113,10 +113,10 @@ body{
 }
 .mail{
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: -70px;
 }
 .talent{
-  transform: translateY(600%);
+  transform: translateY(450%);
 }
 .teeam{
   font-size: 35px;
@@ -128,4 +128,106 @@ body{
 }
 .amet{
   margin-left: 10px;
+}
+/* ProfileCard.css */
+
+.profile-card {
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 400px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  background-color: #f5f5f5; /* Optional: background color for placeholder */
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.profile-title {
+  font-size: 14px;
+  color: #888;
+}
+.profile-card2 {
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.profile-image2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  background-color: #f5f5f5; /* Optional: background color for placeholder */
+}
+.profile-card3 {
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.profile-image3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  background-color: #f5f5f5; 
+}
+.profile-card4 {
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.profile-image4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  background-color: #f5f5f5; 
 }
