@@ -111,3 +111,21 @@ body{
   transform: translateY(90%);
   margin-left: 60px;
 }
+.mail{
+  margin-left: 100px;
+
+}
+.talent{
+  transform: translateY(500%);
+}
+.teeam{
+  font-size: 35px;
+  color: #74C69D;
+  margin-left: 200px;
+}
+.our{
+  margin-left: 160px;
+}
+.amet{
+  margin-left: 10px;
+}
