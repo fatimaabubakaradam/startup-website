@@ -113,10 +113,10 @@ body{
 }
 .mail{
   margin-left: 100px;
-
+  margin-top: 100px;
 }
 .talent{
-  transform: translateY(500%);
+  transform: translateY(600%);
 }
 .teeam{
   font-size: 35px;

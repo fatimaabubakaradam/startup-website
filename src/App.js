@@ -7,6 +7,7 @@ import Mail from './mail';
 import Cloud from './cloud';
 import Footer from './footer';
 
+
 const App = () => {
   return (
     <div>
