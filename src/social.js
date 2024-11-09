@@ -19,7 +19,7 @@ const Social = () => {
         <img src={air}  alt="air" className='air' />
         <img src={facebook} alt="facebook" className='facebook' />
         <img src={spot}  alt="spot" className='spot' />
-        <button className="learn-button">Learn More</button>
+        <button className="learn-button3">Learn More</button>
       </div>
     </>
   );

@@ -29,6 +29,7 @@ const pic = () => {
    <p className="profile-title">DEVELOPER</p>
    
  </div>
+ <button className="learn-button2">Learn More</button>
     
     
     
