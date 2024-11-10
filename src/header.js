@@ -12,8 +12,6 @@ const Header = () => {
         <img src={Vector} alt="Menu Icon" className="Menu" />
       </div>
       <div className="menu-icon">
-        <img src={Group} alt="Group" className="Group" />
-      </div>
       <div className="welcome-section">
         <h2>Welcome</h2>
         <h1>Lorem ipsum dolor sit amet consectetur</h1>
@@ -22,6 +20,10 @@ const Header = () => {
         <button className="explore-button">Explore</button>
       </div>
     
+       <div> <img src={Group} alt="Group" className="Group" /></div>
+
+      </div>
+     
     </header>
   );
 };

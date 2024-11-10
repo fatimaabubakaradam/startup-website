@@ -7,6 +7,7 @@ import picImage4 from './asset/pic4.png'
 const pic = () => {
   return (
     <>
+    <div className='imgreal'>
     <div className="profile-card">
       <img src={picImage} alt="profile" className="profile-image" />
       <h2 className="profile-name">Peg Legge</h2>
@@ -29,7 +30,9 @@ const pic = () => {
    <p className="profile-title">DEVELOPER</p>
    
  </div>
- <button className="learn-button2">Learn More</button>
+    </div>
+   
+ <button className="learn-button2">view team</button>
     
     
     

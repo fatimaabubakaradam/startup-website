@@ -8,19 +8,19 @@ import spot from './asset/spot.png';
 const Social = () => {
   return (
     <>
-      <div>
+      <div className='section'>
         <h2 className='part'>PARTNERS</h2>
         <h1 className='lorem'>Lorem Ipsum Dolor</h1>
         <h3 className='ipsum'>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
       </div>
-      <div>
+      <div className='ggm'>
         <img src={XMLID_24_} alt="google" className='google' />
         <img src={micro}   alt="microsoft" className='microsoft' />
         <img src={air}  alt="air" className='air' />
         <img src={facebook} alt="facebook" className='facebook' />
         <img src={spot}  alt="spot" className='spot' />
-        <button className="learn-button3">Learn More</button>
       </div>
+      <button className="learn-button3">Learn More</button>
     </>
   );
 };
