@@ -54,7 +54,7 @@ To get started with the Recipe Website, follow these steps:
 1. **Clone the Repository:**
 
 bash
-git clone https://github.com/yourusername/recipe-website.git
+git clone https://github.com/fatimaabubakaradam/startup-website.git
 
 
 2. **Navigate to the Project Directory:**
