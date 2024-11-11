@@ -26,7 +26,7 @@ This Startup Website is a clean  template designed to help startups establish an
 
 ## Live Demo
 
-Check out the live demo of the project: [Startup Website Demo](https://yourusername.github.io/startup-website/)
+Check out the live demo of the project: [Startup Website Demo]( https://fatimaabubakaradam.github.io/startup-website/)
 
 ---
 
@@ -57,3 +57,44 @@ To get started with the Startup Website, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/startup-website.git
+2.**Navigate to the Project Directory:**
+
+
+ ```cd startup-website
+
+3.**Navigate to the Project Directory:**
+
+ ```npm install
+
+4.**Start the developer server:**
+
+```npm start
+**This will launch the project on http://localhost:3000.**
+
+**Usage**
+The Startup Website is designed for smooth use on both mobile and desktop devices.
+
+**Mobile View**: Optimized for smaller screens with touch-friendly elements and simplified navigation.
+**Desktop View:** Displays more content at once, perfect for showcasing multiple sections and information.
+**Key Features:**
+**Interactive Navigation:** Quick access to different sections of the site with smooth transitions.
+**Responsive Layout:** Custom navigation and section design for both mobile and desktop experiences.
+
+
+**Screenshots**
+(Add mobile and desktop view screenshots here)
+
+**License**
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+**Author(s)**
+If you have any questions or feedback, feel free to reach out:
+
+**Name:** Fatima Abubakar
+**Email:** zahrammcy@gmail.com
+**GitHub:** Startup Website Repository
+Thank you for checking out the Startup Website! We hope this template helps showcase your startup’s unique value.
+
+
+
+
