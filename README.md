@@ -59,7 +59,6 @@ To get started with the Startup Website, follow these steps:
    git clone https://github.com/yourusername/startup-website.git
 2.**Navigate to the Project Directory:**
 
-
  ```cd startup-website
 
 3.**Navigate to the Project Directory:**
