@@ -9,9 +9,20 @@ const Header = () => {
       <div className="header-logo">
         <img src={Group1} alt="Start Logo" className="logo" />
         <span className="logo-text">Start</span>
-        <img src={Vector} alt="Menu Icon" className="Menu" />
       </div>
+      <nav class="navbar">
+    <div className="Menu" >
+    <img src={Vector} alt="Menu Icon" className="Menu" />
+    </div>
+    <ul class="nav-links" id="navLinks">
+        <li><a>Home</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact</a></li>
+    </ul>
+</nav>
       <div className="menu-icon">
+        
       <div className="welcome-section">
         <h2>Welcome</h2>
         <h1>Lorem ipsum dolor sit amet consectetur</h1>
@@ -19,11 +30,10 @@ const Header = () => {
       
         <button className="explore-button">Explore</button>
       </div>
-    
-       <div> <img src={Group} alt="Group" className="Group" /></div>
-
+        <img src={Group} alt="Group" className="Group" />
       </div>
-     
+      
+    
     </header>
   );
 };

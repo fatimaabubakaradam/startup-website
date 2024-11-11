@@ -26,14 +26,31 @@ body{
   font-weight: 500;
 }
 .Menu{
-  margin-left: 250px;
-  transform: translateY(-20%);
+  margin-left: 200px;
+  transform: translateY(-90%);
+  display: block; 
+  cursor: pointer;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #74C69D; 
+  padding: 1rem;
+}
+
+
+.nav-links {
+  list-style-type: none;
+  display: none;
+  gap: 1.5rem;
+}
+
 .welcome-section{
   color: #FFF;
 }
 .Group{
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 .explore-button{
   background-color: #FFF; 
@@ -138,7 +155,7 @@ body{
 .amet{
   margin-left: 10px;
 }
-/* ProfileCard.css */
+
 
 .profile-card {
   width: 220px;
@@ -160,7 +177,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0 auto 15px;
-  background-color: #f5f5f5; /* Optional: background color for placeholder */
+  background-color: #f5f5f5; 
 }
 
 .profile-name {
@@ -194,7 +211,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0 auto 15px;
-  background-color: #f5f5f5; /* Optional: background color for placeholder */
+  background-color: #f5f5f5; 
 }
 .profile-card3 {
   width: 220px;
@@ -304,15 +321,6 @@ body{
   margin-left: 700px;
   margin-top: 60px;
 }
-/* .Group{
-  height: 400px;
-}
-.welcome-section{
-  
-}
-.lorem{
-  
-} */
  .menu-icon{
   display: flex;
  }
@@ -421,4 +429,134 @@ height: 400px;
 .right{
   margin-left: 700px;
 }
+.logo{
+  margin-left: 120px;
 }
+}
+@media only screen and (min-width: 786px){
+  .menu-icon{
+    margin-left: 700px;
+    margin-top: 60px;
+  }
+  
+   .menu-icon{
+    display: flex;
+   }
+  .section{
+    margin-left: 500px;
+  }
+  .welcome-section{
+    transform: translateX(-110%);
+    width: 500px;
+    margin-top: -50px;
+  }
+  .Group{
+    height: 300px;
+    margin-left: -400px;
+  }
+  .ggm{
+    display: flex;
+    padding-left: 100px;
+  }
+  .google{
+    margin-left: 130px;
+    margin-top: 45px;
+  }
+  .microsoft{
+    margin-left: 70px;
+    margin-top: 35px;
+  }
+  .air{
+    margin-top: 35px;
+    margin-left: 70px;
+  
+  }
+  .facebook{
+    margin-top: 35px;
+    margin-left: 70px;
+  
+  }
+  .spot{
+    margin-top: 35px;
+    margin-left: 70px;
+  
+  }
+  .learn-button3{
+    margin-left: 650px;
+  }
+  .section-two{
+    display: flex;
+    margin-top: 50px;
+  }
+  .teeamm{
+    margin-top: 120px;
+    margin-left: 200px;
+    width: 500px;
+  }
+  .team{
+    height: 400px;
+    margin-left: 150px;
+  }
+  .mailld{
+    display: flex;
+  }
+  .accent{
+    margin-top: 10px;
+    margin-left: 400px;
+    width: 500px;
+  }
+  .mail{
+  height: 400px;
+  }
+  .talent{
+    margin-left: 500px;
+    margin-bottom: 50px;
+  }
+  .imgreal{
+    display: flex;
+    margin-top: 30px;
+    
+  }
+  .profile-card{
+    margin-left: 150px;
+  }
+  .profile-card2{
+    height: 200px;
+    margin-top: 400px;
+    margin-left: 10px;
+  }
+  .profile-card3{
+    height: 200px;
+    margin-top: 400px;
+    margin-left: 10px;
+  }
+  .profile-card4{
+    height: 200px;
+    margin-top: 400px;
+    margin-left: 10px;
+    margin-right: 150px;
+  }
+  .learn-button2{
+    transform: translateX(200%);
+    margin-top: 50px;
+  }
+  .footer{
+    display: flex;
+    
+  }
+  .right{
+    margin-left: 700px;
+  }
+  .logo{
+    margin-left: 120px;
+  }
+  .Menu{
+    display: none;
+  }
+  .nav-links{
+    display: flex;
+    color: #FFF;
+    margin-left: 1000px;
+    margin-top: -16px;
+  }
+  }
