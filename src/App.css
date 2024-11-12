@@ -365,7 +365,7 @@ body{
 
 }
 .learn-button3{
-  transform: translateX(150%);
+  margin-left: -100px;
   margin-top: 40px;
 }
 .section-two{
@@ -374,27 +374,32 @@ body{
 }
 .teeamm{
   margin-top: 120px;
-  margin-left: 200px;
+  transform: translateX(90%);
   width: 500px;
+
 }
 .team{
-  height: 400px;
-  margin-left: 150px;
+  height: 500px;
+  transform: translateX(50%);
 }
 .mailld{
   display: flex;
+  
 }
 .accent{
   margin-top: 10px;
-  margin-left: 400px;
+  transform: translateX(90%);
   width: 500px;
 }
 .mail{
-height: 400px;
+height: 500px;
+transform: translateX(50%);
 }
 .talent{
-  margin-left: 500px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  /* transform: translateX(50%); */
+  padding-left: 400px;
+
 }
 .imgreal{
   display: flex;
@@ -421,8 +426,8 @@ height: 400px;
   margin-right: 150px;
 }
 .learn-button2{
-  transform: translateX(200%);
-  margin-top: 50px;
+margin-left: 470px;  
+margin-top: 50px;
 }
 .footer{
   display: flex;
