@@ -1,7 +1,8 @@
 // src/Portfolio.js
 import React from 'react';
 import Nav from './nav';
-import Works from './works'
+import Works from './works';
+import Footer from './footer'
 
 const Portfolio = () => {
   return (
@@ -10,6 +11,7 @@ const Portfolio = () => {
       <main>
        <Works />
       </main>
+      <Footer />
     </div>
   );
 };
