@@ -1,27 +1,17 @@
 import './App.css';
 import React from 'react';
-import Header from './header'; 
-import Social from './social';
-import Team from './team';
-import Mail from './mail';  
-import Cloud from './cloud';
-import Pic  from  './pic';
-import Footer from './footer';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './home'; // Import the Home component
+import Portfolio from './Portfolio'; // Import the Portfolio component, if you have it
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <main>
-        <Social />
-        <Team />
-        <Cloud />
-        <Mail /> 
-        <Pic /> 
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Route for the homepage */}
+        <Route path="/Portfolio" element={<Portfolio />} /> {/* Route for the portfolio page */}
+      </Routes>
+    </Router>
   );
 };
 

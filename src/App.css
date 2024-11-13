@@ -4,7 +4,6 @@ body{
 }
 .header{
   background-color: #74C69D;
-  /* width: 375px; */
   height: 642;
 }
 .logo{
@@ -15,7 +14,6 @@ body{
 .logo-text{
   color: #FFF;
   padding-left: 30px;
-  /* Weight: 500; */
   size: 30px;
   line-height: 37.5px;
   font-size: 40px;
@@ -24,33 +22,37 @@ body{
 }
 .welcome-section p{
   font-weight: 500;
+  padding-left: 10px;
 }
 .Menu{
-  margin-left: 200px;
+  margin-left: 400px;
   transform: translateY(-90%);
   display: block; 
   cursor: pointer;
 }
-.navbar {
+
+.nav-links.show {
   display: flex;
-  align-items: center;
-  background-color: #74C69D; 
-  padding: 1rem;
 }
 
 
 .nav-links {
   list-style-type: none;
   display: none;
-  gap: 1.5rem;
+   gap: 1.5rem; 
 }
 
 .welcome-section{
   color: #FFF;
+  transform: translateY(70%);
+  padding-left: 10px;
+
 }
 .Group{
-  margin-left: 20px;
+  margin-left: 50px;
   margin-bottom: 30px;
+  transform: translateY(-170%);
+  
 }
 .explore-button{
   background-color: #FFF; 
@@ -329,13 +331,15 @@ body{
 
 }
 .welcome-section{
-  margin-left: 150px;
+  margin-left: 700px;
   width: 500px;
-  margin-bottom: 50px;
+  padding-top: 100px;
 }
-.Group{
-  height: 500px;
-  margin-left: 200px;
+.Group{ 
+    margin-left: 800px;
+    margin-bottom: 20px ;
+    transform: translateY(-100%);
+    width: 450px;
 }
 .ggm{
   display: flex;
@@ -365,8 +369,9 @@ body{
 
 }
 .learn-button3{
-  margin-left: -100px;
+  /* margin-left: -200px; */
   margin-top: 40px;
+  transform: translateX(140%);
 }
 .section-two{
   display: flex;
@@ -388,12 +393,12 @@ body{
 }
 .accent{
   margin-top: 10px;
-  transform: translateX(90%);
+  transform: translateX(-60%);
   width: 500px;
 }
 .mail{
 height: 500px;
-transform: translateX(50%);
+transform: translateX(250%);
 }
 .talent{
   /* margin-bottom: 50px; */
@@ -460,14 +465,16 @@ margin-top: 50px;
       width: 500px;
       margin-top: -50px;
     }
-    .Group{
+    /* .Group{
       height: 300px;
       margin-left: -400px;
-    }
+    } */
     .ggm{
       display: flex;
       flex-wrap: wrap;
-      
+    }
+    .Group{
+      display: block;
     }
     .google{
       margin-left: 70px;
