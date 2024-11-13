@@ -1,11 +1,15 @@
 // src/Portfolio.js
 import React from 'react';
+import Nav from './nav';
+import Works from './works'
 
 const Portfolio = () => {
   return (
     <div>
-      <h1>Portfolio</h1>
-      <p>Welcome to the portfolio page.</p>
+      <Nav />
+      <main>
+       <Works />
+      </main>
     </div>
   );
 };
