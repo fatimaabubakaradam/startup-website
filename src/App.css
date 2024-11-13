@@ -318,6 +318,20 @@ body{
   color: #FFF;
   padding-bottom: 15px;
 }
+.works{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.works p{
+  font-weight: 400;
+  font-size: 22px;
+}
+.works span{
+  color: #74C69D;
+  font-size: 25px;
+  font-weight: 500 ;
+}
 @media only screen and (min-width: 1025px){
 .menu-icon{
   margin-left: 700px;
