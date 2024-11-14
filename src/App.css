@@ -480,19 +480,16 @@ margin-top: 50px;
   margin-left: 120px;
 }
 .ports {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 100px; /* Optional: adds space between images */
-}
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 800px;
+  margin: auto;
 
-.port-image {
-  flex: 1 1 50%; /* Makes each image container take up 45% of the row */
-  max-width: 50%; /* Ensures two images fit in one row */
-  box-sizing: border-box;
-  width: 100%; /* Makes each image fill its container's width */
 }
+.port1{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
+}
 }
 
   @media only screen and (min-width: 786px){
@@ -514,10 +511,6 @@ margin-top: 50px;
       width: 500px;
       margin-top: -50px;
     }
-    /* .Group{
-      height: 300px;
-      margin-left: -400px;
-    } */
     .ggm{
       display: flex;
       flex-wrap: wrap;
