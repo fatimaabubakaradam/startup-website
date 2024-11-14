@@ -4,7 +4,7 @@ body{
 }
 .header{
   background-color: #74C69D;
-  height: 642;
+  height: 542;
 }
 .logo{
   padding-left: 30px;
@@ -33,6 +33,12 @@ body{
 
 .nav-links.show {
   display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #74C69D;
+  margin-top: -10px;
+  width: 600px;
+  height: 300px;
 }
 
 
@@ -40,6 +46,7 @@ body{
   list-style-type: none;
   display: none;
    gap: 1.5rem; 
+   text-decoration: none;
 }
 
 .welcome-section{
@@ -354,6 +361,14 @@ body{
   margin-top: 40px;
 }.port8{
   margin-top: 40px;
+}
+.navbar{
+  /* display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  margin-top: 10px; */
+  
 }
 @media screen and (min-width: 1025px){
 .menu-icon{
