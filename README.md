@@ -92,7 +92,9 @@ If you have any questions or feedback, feel free to contact:
 **Email:** zahrammcy@gmail.com 
 
 **GitHub:**  Startup Website Repository
-**watch my loom vedio:**  https://www.loom.com/share/b827595e808e4fe0b46698baa8b115b1
+
+
+**watch my loom video:**  https://www.loom.com/share/b827595e808e4fe0b46698baa8b115b1
 
 
 
