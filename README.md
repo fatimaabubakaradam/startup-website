@@ -20,7 +20,7 @@ Welcome to the Startup Website! This project is a mobile and desktop  website te
 
 ## Introduction
 
-This Startup Website is a clean  template designed to help startups establish an impressive online presence. With a mobile-first design and then desktop, this project ensures a seamless experience across mobile and desktop devices. Users can navigate through sections showcasing services, team members, and key features. The website is built with React and uses a modular component structure for easy customization and scalability.
+This Startup Website is a clean  template designed to help startups establish an impressive online presence. This project includes a homepage and a portfolio page, With a mobile-first design and then desktop, this project ensures a seamless experience across mobile and desktop devices. Users can navigate through sections showcasing services, team members, and key features. The website is built with React and uses a modular component structure for easy customization and scalability.
 
 ---
 
@@ -92,7 +92,8 @@ If you have any questions or feedback, feel free to contact:
 **Email:** zahrammcy@gmail.com 
 
 **GitHub:**  Startup Website Repository
-https://www.loom.com/share/78730d4ff3d74f1e8d6bc00a9f2ecd73?sid=8917321b-b6d7-44d2-8576-d31dfad0919c
+**watch my loom vedio:**  https://www.loom.com/share/b827595e808e4fe0b46698baa8b115b1
+
 
 
 
