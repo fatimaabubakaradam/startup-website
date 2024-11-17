@@ -99,7 +99,7 @@ If you have any questions or feedback, feel free to contact:
 
 
 
-Thank you for checking out the Startup Website! We hope this template helps showcase your startup’s unique value.
+Thank you for checking out the Startup Website! 
 
 
 
