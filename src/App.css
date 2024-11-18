@@ -362,14 +362,6 @@ body{
 }.port8{
   margin-top: 40px;
 }
-.navbar{
-  /* display: flex;
-  flex-direction: column;
-  width: 600px;
-  height: 300px;
-  margin-top: 10px; */
-  
-}
 @media screen and (min-width: 1025px){
 .menu-icon{
   margin-left: 700px;
