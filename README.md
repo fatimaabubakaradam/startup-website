@@ -83,10 +83,6 @@ The Startup Website is responsive and works seamlessly on all devices:
 - **Mobile View:** Designed for smaller screens .
 - **Desktop View:** Features a layout that utilizes larger screen
 
-Key features include:
-- **Interactive Navigation:**  Quick access to different sections of the site with smooth transitions.
-- **Responsive Layout:** Custom navigation and section design for both mobile and desktop experiences
-
 ## Screenshots
 
 *(Add mobile and desktop view screenshots here)*
