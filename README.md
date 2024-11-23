@@ -78,14 +78,14 @@ cd startup-website
 npm start
 
 ## Usage
-The Recipe Website is fully responsive and can be used on both mobile and desktop devices:
+The Startup Website is responsive and works seamlessly on all devices:
 
-- **Mobile View:** Optimized for smaller screens with touch-friendly elements and simplified navigation.
-- **Desktop View:** On larger screens, more content is displayed at once, making it easier to browse through multiple recipes.
+- **Mobile View:** Designed for smaller screens .
+- **Desktop View:** Features a layout that utilizes larger screen
 
 Key features include:
 - **Interactive Navigation:**  Quick access to different sections of the site with smooth transitions.
-- **Responsive Layout:** Custom navigation and section design for both mobile and desktop experiences.
+- **Responsive Layout:** Custom navigation and section design for both mobile and desktop experiences
 
 ## Screenshots
 
