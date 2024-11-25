@@ -34,8 +34,6 @@ const pic = () => {
    
  <button className="learn-button2">view team</button>
     
-    
-    
     </>
     
   );

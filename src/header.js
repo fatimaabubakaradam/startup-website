@@ -26,21 +26,18 @@ const Header = () => {
         <ul className={`nav-links ${menuOpen ? 'show' : ''}`} id="navLinks">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/portfolio">Portfolio</Link></li>
-          <li><a>Services</a></li>
-          <li><a>Contact</a></li>
+          <li><Link to="/service"> Service</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-
       <div className="welcome-section">
         <h2>Welcome</h2>
         <h1>Lorem ipsum dolor sit amet consectetur</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>
         <button className="explore-button">Explore</button>
       </div>
-      
       <img src={Group} alt="Group" className="Group" />
      </header>
   );
 };
-
 export default Header;

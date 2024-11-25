@@ -34,7 +34,7 @@ body{
 .nav-links.show {
   display: flex;
   flex-direction: column;
-  position: fixed;
+  /* position: fixed; */
   background-color: #74C69D;
   margin-top: -10px;
   width: 600px;
@@ -362,6 +362,34 @@ body{
 }.port8{
   margin-top: 40px;
 }
+.service-plan span{
+  color: #74c69D;
+  font-size: 30px;
+  padding-left: 150px;
+}
+.service-plan h1{
+  padding-left: 150px;
+}
+.service-plan p{
+  margin-left: 50px;
+  font-size: 15px;
+}
+.frame{
+  margin-left: 70px;
+}
+.name-img{
+  padding-left: 40px;
+}
+.whether{
+  margin-left: 40px;
+}
+.contact-us h1{
+  padding-left: 150px;
+}
+.contact-us p{
+  padding-left: 130px;
+  width: 280px;
+}
 @media screen and (min-width: 1025px){
 .menu-icon{
   margin-left: 700px;
@@ -483,8 +511,25 @@ margin-top: 50px;
 .right{
   margin-left: 700px;
 }
+.contact-line{
+  display: flex;
+
+}
+.whether{
+  height: 400px;
+  margin-left: 700px;
+}
+.name-img{
+margin-left: -1100px;}
 .logo{
   margin-left: 120px;
+}
+.contact-us p{
+  margin-left: 400px ;
+  width: 500px;
+}
+.contact-us h1{
+  margin-left: 400px ;
 }
 .ports {
   display: grid;
@@ -497,7 +542,29 @@ margin-top: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
 }
+  .service-plan span{
+    
+    font-size: 40px;
+    padding-left: 300px;
+  }
+  .service-plan h1{
+    padding-left: 650px;
+  }
+  .service-plan p{
+    margin-left: 400px;
+    font-size: 25px;
+  }
+  .frame{
+    margin-left: 200px;
+  }
+  .frame2{
+    margin-left: 20px;
+  }
+  .frame3{
+    margin-left: 20px;
+  }
 }
+
 
   @media only screen and (min-width: 786px){
     .menu-icon{
@@ -631,3 +698,4 @@ margin-top: 50px;
       text-decoration: none;
     }
   }  
+  
