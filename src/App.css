@@ -5,6 +5,7 @@ body{
 .header{
   background-color: #74C69D;
   height: 542;
+  width: 550px; 
 }
 .logo{
   padding-left: 30px;
@@ -25,7 +26,7 @@ body{
   padding-left: 10px;
 }
 .Menu{
-  margin-left: 400px;
+  margin-left: 500px;
   transform: translateY(-90%);
   display: block; 
   cursor: pointer;
@@ -39,6 +40,9 @@ body{
   margin-top: -10px;
   width: 600px;
   height: 300px;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration-line: none;
 }
 
 
@@ -47,6 +51,7 @@ body{
   display: none;
    gap: 1.5rem; 
    text-decoration: none;
+
 }
 
 .welcome-section{
@@ -56,7 +61,7 @@ body{
 
 }
 .Group{
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 30px;
   transform: translateY(-170%);
   
@@ -80,13 +85,18 @@ body{
   margin-left: 150px;
 }
 .lorem{
-  margin-left: 100px;
-  font-size: 35px;
+    margin-left: 60px; 
+   /* padding-left: 50px; */
+  font-size: 40px;
+  font-weight: 400;
+  width: 500px;
+  
 }
 .ipsum{
-  padding-left: 12px;
+  padding-left: 45px;
   font-weight: 400;
   font-size: 25px;
+  width: 500px;
 
 }
 
@@ -151,20 +161,22 @@ body{
   margin-top: -70px;
 }
 .talent{
-  transform: translateY(450%);
+  transform: translateY(500%);
+  /* margin-left: 100px; */
 }
 .teeam{
   font-size: 35px;
   color: #74C69D;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 .our{
-  margin-left: 160px;
+  margin-left: 200px;
+  width: 300px;
 }
 .amet{
-  margin-left: 10px;
+  margin-left: 100px;
+  width: 400px;
 }
-
 
 .profile-card {
   width: 220px;
@@ -254,7 +266,9 @@ body{
   margin: 0 auto;
   margin-top: 40px;
 }
-
+.imgreal{
+  margin-left: 120px;
+}
 .profile-image4 {
    width: 100px; 
   height: 100px;
@@ -293,6 +307,7 @@ body{
 .footer{
   background-color: #74C69D;
   margin-top: 100px;
+   width: 550px; 
 }
 .face{
   margin-left: 100px;
@@ -327,17 +342,20 @@ body{
 }
 .works{
   margin-top: 20px;
+  margin-left: 140px; 
   text-align: center;
   font-size: 20px;
 }
 .works p{
-  font-weight: 400;
+  /* font-weight: 600; */
   font-size: 22px;
+  width: 300px;
+  margin-left: -20px;
 }
 .works span{
   color: #74C69D;
   font-size: 25px;
-  font-weight: 500 ;
+  font-weight: 400 ;
 }
 .ports{
   padding-left: 80px;
@@ -365,14 +383,15 @@ body{
 .service-plan span{
   color: #74c69D;
   font-size: 30px;
-  padding-left: 150px;
+  padding-left: 80px;
 }
 .service-plan h1{
-  padding-left: 150px;
+   padding-left: 150px; 
 }
 .service-plan p{
-  margin-left: 50px;
+  margin-left: 140px;
   font-size: 15px;
+  width: 200px;
 }
 .frame{
   margin-left: 70px;
@@ -382,6 +401,9 @@ body{
 }
 .whether{
   margin-left: 40px;
+}
+.contact-line{
+  padding-left: 50px;
 }
 .contact-us h1{
   padding-left: 150px;
@@ -394,6 +416,12 @@ body{
 .menu-icon{
   margin-left: 700px;
   margin-top: 60px;
+}
+.header{
+  width: 1500px;
+}
+.footer{
+  width: 1500px;
 }
  .menu-icon{
   display: flex;
@@ -479,6 +507,7 @@ transform: translateX(250%);
 .imgreal{
   display: flex;
   margin-top: 30px;
+
   
 }
 .profile-card{

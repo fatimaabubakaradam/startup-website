@@ -5,10 +5,10 @@ import Frame3 from './asset/Frame 74.svg'
 const Our = () => { 
     return (
         <>
-              <div className='service-plan'>
-     <p> <span>Plans</span></p>
-     <h1>Our service</h1>
-     <p> Lorem ipsum , dolor sit amet consectetur adipisicingg elit</p>
+       <div className='service-plan'>
+        <p> <span>Plans</span></p>
+        <h1>Our service</h1>
+        <p> Lorem ipsum , dolor sit amet consectetur adipisicingg elit</p>
       </div>
   <div className='frame'>
     <img src={Frame1} alt='frame1' className='frame1' />
