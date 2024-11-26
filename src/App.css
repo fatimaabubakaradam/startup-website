@@ -415,6 +415,16 @@ body{
   padding-left: 130px;
   width: 280px;
 }
+@media screen and (min-width: 524px){
+  .imgreal{
+    margin-left: 60px; 
+  }
+}
+@media screen and (min-width: 482px){
+  .imgreal{
+    margin-left: 110px;
+  }
+}
 @media screen and (min-width: 1025px){
 .menu-icon{
   margin-left: 700px;
