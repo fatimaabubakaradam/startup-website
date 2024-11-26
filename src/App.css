@@ -454,7 +454,7 @@ body{
   .learn-button2{
     margin-left: 220px;
   }
-  .works{
+  .works p{
     margin-left: 200px;
   }
 }
@@ -468,6 +468,12 @@ body{
   .talent{
     margin-left: 60px; 
     transform: translateY(450%);
+  }
+  .works h1{
+    margin-left: -130px;
+  }
+  .works span{
+    margin-left: -130px;
   }
 }
 @media screen and (min-width: 482px){
