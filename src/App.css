@@ -418,7 +418,12 @@ body{
   width: 280px;
 }
 @media screen and (min-width: 700px){
-
+.header{
+  width: 800px;
+}
+.footer{
+  width: 800px;
+}
 }
 @media screen and (min-width: 605px){
   .header{
@@ -448,6 +453,9 @@ body{
   }
   .learn-button2{
     margin-left: 220px;
+  }
+  .works{
+    margin-left: 200px;
   }
 }
 
