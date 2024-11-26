@@ -266,8 +266,11 @@ body{
   margin: 0 auto;
   margin-top: 40px;
 }
+.ggm{
+  margin-left: 30px;
+}
 .imgreal{
-  margin-left: 120px;
+  margin-left: 150px;
 }
 .profile-image4 {
    width: 100px; 
@@ -302,7 +305,7 @@ body{
   height: 80px;
   width: 250px;
   transform: translateY(90%);
-  margin-left: 130px;
+  margin-left: 150px;
 }
 .footer{
   background-color: #74C69D;
@@ -394,7 +397,7 @@ body{
   width: 200px;
 }
 .frame{
-  margin-left: 70px;
+  margin-left: 100px;
 }
 .name-img{
   padding-left: 40px;
