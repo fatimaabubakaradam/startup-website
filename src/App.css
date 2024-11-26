@@ -4,8 +4,8 @@ body{
 }
 .header{
   background-color: #74C69D;
-  height: 542;
-  width: 550px; 
+   height: 542;
+  width: 600px;  
 }
 .logo{
   padding-left: 30px;
@@ -38,14 +38,16 @@ body{
   /* position: fixed; */
   background-color: #74C69D;
   margin-top: -10px;
-  width: 600px;
-  height: 300px;
+   width: 500px;
+  height: 300px; 
   text-decoration: none;
   list-style-type: none;
   text-decoration-line: none;
 }
 
-
+.section{
+  padding-left: 50px;
+}
 .nav-links {
   list-style-type: none;
   display: none;
@@ -310,7 +312,7 @@ body{
 .footer{
   background-color: #74C69D;
   margin-top: 100px;
-   width: 550px; 
+   width: 600px; 
 }
 .face{
   margin-left: 100px;
@@ -361,7 +363,7 @@ body{
   font-weight: 400 ;
 }
 .ports{
-  padding-left: 80px;
+  padding-left: 120px;
 }
 .port1{
   margin-top: 30px;
@@ -415,9 +417,49 @@ body{
   padding-left: 130px;
   width: 280px;
 }
+@media screen and (min-width: 700px){
+
+}
+@media screen and (min-width: 605px){
+  .header{
+    width: 700px;
+  }
+  .footer{
+    width: 700px;
+  }
+  .talent{
+    margin-bottom: 20px;
+  }
+  .section{
+    margin-left: 50px;
+  }
+  .ggm{
+    margin-left: 70px;
+  }
+  .learn-button3{
+    margin-left: 200px;
+  }
+  .Menu-icon{
+    margin-left: 100px;
+  }
+  .Group{
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .learn-button2{
+    margin-left: 220px;
+  }
+}
+
 @media screen and (min-width: 524px){
   .imgreal{
     margin-left: 60px; 
+  }
+}
+@media screen and (min-width: 541px){
+  .talent{
+    margin-left: 60px; 
+    transform: translateY(450%);
   }
 }
 @media screen and (min-width: 482px){
