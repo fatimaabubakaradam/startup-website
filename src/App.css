@@ -30,12 +30,12 @@ main{
   justify-content: space-between;
 }
 .Menu{
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 250px;
+  margin-top: -30px;
 }
 .nav-links.show {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* position: fixed; */
   background-color: #74C69D;
 
@@ -84,6 +84,21 @@ margin-bottom: 20px; */
   margin-left: 30px;
   margin-bottom: 20px;
 }
+.learn-button2{
+  background-color: #2e2e2e; 
+  color: white; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  height: 60px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
 .welcome-section h2{
 font-size: 20px;
 }
@@ -117,10 +132,10 @@ font-size: 20px;
  }
  .partners-section {
   display: flex;
-  flex-direction: column; /* Keep items stacked vertically */
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
-  text-align: center; /* Centers text inside the section */
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
   padding-top: 50px;
 }
 .learn-button3{
@@ -156,7 +171,16 @@ font-size: 20px;
   font-size: 20px;
   font-weight: 100;
 }
-
+.ports{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  gap: 50px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
 .learn-button1{
   background-color: #2e2e2e; 
   color: white; 
@@ -177,10 +201,10 @@ font-size: 20px;
  }
  .talent{
   display: flex;
-  flex-direction: column; /* Keep items stacked vertically */
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
-  text-align: center; /* Centers text inside the section */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
   margin-top: 20px;
  }
  .teeam{
@@ -224,16 +248,16 @@ font-size: 20px;
 }
 .button-class{
   display: flex;
-  flex-direction: column; /* Keep items stacked vertically */
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
-  text-align: center; /* Centers text inside the section */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
 }
 .mail-con{
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
+  justify-content: center;
+  align-items: center; 
 }
 .footer{
   background-color: #74C69D;
@@ -244,9 +268,9 @@ font-size: 20px;
   display: flex;
   flex-direction: row;
   gap: 10px;
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
-  text-align: center; /* Centers text inside the section */
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
   margin-top: 20px;
 }
 .right-start{
@@ -257,6 +281,18 @@ font-size: 20px;
   text-align: center; 
   color: #FFF;
   margin-bottom: 10px;
+}
+.works{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  margin-top: 20px;
+}
+.works span{
+  color: #74C69D;
+  font-size: 24px;
 }
 @media screen and (min-width: 768px){
   .Menu{
@@ -278,10 +314,19 @@ font-size: 20px;
 .mail-con{
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
+  justify-content: center; 
+  align-items: center; 
 }
-}
+.ports{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  }
+
+
+
 @media screen and (min-width: 1025px){
   .Menu{
     display: none;
@@ -334,8 +379,8 @@ font-size: 20px;
 display: flex;
 flex-direction: row;
 gap: 100px;
-justify-content: center; /* Centers items vertically */
-  align-items: center; /* Centers items horizontally */
+justify-content: center; 
+  align-items: center; 
   text-align: center;
 
   }
@@ -349,4 +394,12 @@ justify-content: center; /* Centers items vertically */
     font-weight: 400;
     width: 400px;
   }
+  .ports {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    margin-left: 300px;
+    line-height: 0.5;
+  }
+  
 }

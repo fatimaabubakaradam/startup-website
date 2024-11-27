@@ -26,7 +26,10 @@ const Works = () => {
         <img src={port7Image} alt='port7' className='port7' />
         <img src={port8Image} alt='port8' className='port8' />
     </div>
+    <div className='button-class'>
     <button className="learn-button2">Learn More</button>
+    </div>
+   
    </>
   
   );
