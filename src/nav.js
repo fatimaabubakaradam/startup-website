@@ -11,8 +11,10 @@ const Nav = () => {
   };
 
   return (
-    <header className="header">
-      <div className="header-logo">
+    <>
+     <header className="header">
+       <div className='header-container'>
+       <div className="header-logo">
         <img src={Group1} alt="Start Logo" className="logo" />
         <span className="logo-text">Start</span>
       </div>
@@ -28,7 +30,14 @@ const Nav = () => {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
+      </div>
     </header>
+
+
+     
+   
+    </>
+    
   );
 };
 

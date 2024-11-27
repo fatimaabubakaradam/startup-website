@@ -4,8 +4,8 @@ import teamImage from './asset/team.png';
 const Team = () => {  
   return (
     <div className='section-two'>
-       <div>
-      <img src={teamImage} alt="team" className='team' />
+      <div className='team-picture-container'>
+        <img src={teamImage} alt="team" className='team' />
       </div>
     <div className='teeamm'>
       <h1 className='team-text1'>Lemon ipsum dolor sit amet consectetur</h1>

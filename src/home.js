@@ -14,8 +14,8 @@ const Home = () => {
       <main>
         <Social />
         <Team />
-        <Cloud />
         <Mail />
+        <Cloud />
         <Pic />
       </main>
       <Footer />

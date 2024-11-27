@@ -8,7 +8,7 @@ import spot from './asset/spot.png';
 const Social = () => {
   return (
     <>
-      <div className='section'>
+      <div className='partners-section'>
         <h2 className='part'>PARTNERS</h2>
         <h1 className='lorem'>Lorem Ipsum Dolor</h1>
         <h3 className='ipsum'>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
@@ -20,7 +20,9 @@ const Social = () => {
         <img src={facebook} alt="facebook" className='facebook' />
         <img src={spot}  alt="spot" className='spot' />
       </div>
-      <button className="learn-button3">Learn More</button>
+      <div className="partner-btn">
+        <button className="learn-button3">Learn More</button>
+      </div>
     </>
   );
 };

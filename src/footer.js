@@ -19,7 +19,7 @@ const footer = () => {
         <img src={What} alt='what' className='what' />
         <img src={You} alt='you' className='you' />
       </div>
-     <div>
+     <div className='right-start'>
       <p className='right'>@ Start , 2022. All rights reserved.</p>
      </div>
     </footer>

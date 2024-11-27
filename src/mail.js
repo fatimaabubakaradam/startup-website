@@ -5,7 +5,7 @@ const Mail = () => {
   return (
     <>
     <div className='mailld'> 
-      <div>      <img src={mailImage} alt="mail" className='mail' />
+      <div className='mail-con'>      <img src={mailImage} alt="mail" className='mail' />
       </div>
       <div className='accent'>
       <h1 className='team-text1'>Lemon ipsum dolor sit amet consectetur</h1>

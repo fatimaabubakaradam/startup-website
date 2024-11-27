@@ -13,6 +13,7 @@ const Header = () => {
 
   return (
     <header className="header">
+      <div className='header-container'>
       <div className="header-logo">
         <img src={Group1} alt="Start Logo" className="logo" />
         <span className="logo-text">Start</span>
@@ -30,13 +31,23 @@ const Header = () => {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-      <div className="welcome-section">
-        <h2>Welcome</h2>
-        <h1>Lorem ipsum dolor sit amet consectetur</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>
-        <button className="explore-button">Explore</button>
+
+
+
       </div>
-      <img src={Group} alt="Group" className="Group" />
+     
+      <div className="welcome-section">
+        <div>      <img src={Group} alt="Group" className="Group" /></div>
+          <div>
+             <h2>Welcome</h2>
+             <h1>Lorem ipsum dolor sit amet consectetur</h1>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>
+             <button className="explore-button">Explore</button>
+
+          </div>
+       
+      </div>
+      
      </header>
   );
 };
