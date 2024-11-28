@@ -31,8 +31,8 @@ const Header = () => {
         </ul>
       </nav>
       <div className="welcome-section">
-        <div>      <img src={Group} alt="Group" className="Group" /></div>
-          <div>
+        <div className='group-container'>      <img src={Group} alt="Group" className="Group" /></div>
+          <div className='wel-container'>
              <h2>Welcome</h2>
              <h1>Lorem ipsum dolor sit amet consectetur</h1>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>
