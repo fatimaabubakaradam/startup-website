@@ -311,7 +311,7 @@ font-size: 15px;
   justify-content: center; 
   align-items: center; 
   text-align: center;
-  margin-left: 20px;
+  margin-left: 50px;
   
 }
 .contact-us{
@@ -370,6 +370,7 @@ font-size: 15px;
   .frame{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   }
@@ -389,6 +390,11 @@ font-size: 15px;
      transform: translateY(-100%);
      line-height: 2;
      
+    }
+    .frame{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
   }
 
