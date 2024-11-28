@@ -322,13 +322,60 @@ font-size: 15px;
   text-align: center; 
 }
 
-.whe-container{
+ .whe-container{
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
   text-align: center;
   margin-left: 40px;
+} 
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #080404;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
 }
 @media screen and (min-width: 375px){
   .Menu{
@@ -395,6 +442,17 @@ font-size: 15px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+    }
+    .contact-line{
+      display: flex;
+      flex-direction: row;
+    }
+    .whe-container{
+      transform: translateX(180%);
+      width: 300px;
+    }
+    .contact-form{
+      transform: translateX(-100%);
     }
   }
 
@@ -492,4 +550,10 @@ justify-content: center;
     flex-direction: row;
   }
   
+}
+@media screen and (min-width: 1440px){
+  .whe-container{
+    transform: translateX(250%);
+    width: 300px;
+  }
 }

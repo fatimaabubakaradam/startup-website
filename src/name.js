@@ -8,18 +8,22 @@ const Name = () => {
     <> 
     <div className='contact-line'>
     <div className='whe-container'><img src={Whether} alt='whether' className='whether' /></div>
-    <div className='name-img'>
-  <p>name</p>
-  <img src={Rec} alt='rec-name' className='rec-name' />
-  <p>email</p>
-  <img src={Rec} alt='rec-name' className='rec-name'/>
-  <p>message</p>
-  <img src={Rec1} alt='rec1-name' className='rec1-name'/>
-   
+    <div className="contact-form">
+      <form>
+        <label htmlFor="name">Name</label>
+        <input type="text" id="name"  />
+
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email"  />
+
+        <label htmlFor="message">Message</label>
+        <textarea id="message" ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
     </div>
     </div>
    
-    <button className="learn-button2">submit</button>    
     </>
     
   )
