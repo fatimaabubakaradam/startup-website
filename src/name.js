@@ -7,7 +7,7 @@ const Name = () => {
   return (
     <> 
     <div className='contact-line'>
-    <div><img src={Whether} alt='whether' className='whether' /></div>
+    <div className='whe-container'><img src={Whether} alt='whether' className='whether' /></div>
     <div className='name-img'>
   <p>name</p>
   <img src={Rec} alt='rec-name' className='rec-name' />

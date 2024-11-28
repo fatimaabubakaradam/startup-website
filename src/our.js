@@ -16,7 +16,6 @@ const Our = () => {
     <img src={Frame3} alt='frame3' className='frame3' />
   </div>
         </>
-
     );
   };
   
