@@ -56,6 +56,8 @@ Check out the live demo of the project: [Startup Website Demo]( https://fatimaab
 
 - **Homepage**: Introduces the startup's services and mission.
 - **Portfolio Page**: Showcases projects or past achievements.
+- **Service Page**: Showcases services.
+- **Contact Page**: Showcases map and form.
 - **Interactive Navigation**: React Router enables users to switch between pages without refreshing the site.
 
 ## Setup and Installation
@@ -85,7 +87,11 @@ The Startup Website is responsive and works seamlessly on all devices:
 
 ## Screenshots
 
-*(Add mobile and desktop view screenshots here)*
+
+![image](https://github.com/user-attachments/assets/9022a0c8-c636-47d8-9342-5da6327f7f36)
+![image](https://github.com/user-attachments/assets/8dfc14c6-cb23-4a2a-8f01-5e38f3e3c190)
+
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
