@@ -105,7 +105,7 @@ If you have any questions or feedback, feel free to contact:
 
 
 
-**website:**  https://react-app-57ct.onrender.com>>>>>>> dev
+**website:**  https://react-app-57ct.onrender.com
 
 
 **watch my loom video:**  https://www.loom.com/share/c5149b04d98b4d279d29cd753d2976c0
