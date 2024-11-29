@@ -1,5 +1,7 @@
 import React from 'react';
 import mailImage from './asset/mail.png'; 
+import { motion } from 'framer-motion';
+
 
 const Mail = () => { 
   return (

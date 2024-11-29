@@ -15,19 +15,18 @@ const Name = () => {
       </div>
       <div className="contact-form">
         <form>
-          <label>Name</label>
-          <input type="text" placeholder="Enter your name" />
+        <label>Name</label>
+    <input type="text" placeholder="Enter your name" />
 
-          <label>Email</label>
-          <input type="email" placeholder="Enter your email" />
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" />
 
-          <label>Message</label>
-          <textarea placeholder="Enter your message"></textarea>
+    <label>Message</label>
+    <textarea placeholder="Write your message here"></textarea>
 
           <button type="submit">Submit</button>
         </form>
       </div>
-
 
      
     </motion.div>
