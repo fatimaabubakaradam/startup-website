@@ -393,6 +393,43 @@ button:hover {
   background-color: #555;
     transform: scale(1.1); /* Button enlarges on hover */
   }
+  /* SimpleMap.css */
+
+.map-container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background for the map section */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the map container */
+  margin-top: 30px;
+}
+
+.map-title {
+  font-size: 24px;
+  color: #333; /* Dark text color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.map-subtitle {
+  font-size: 20px;
+  color: #444; /* Slightly lighter text for subtitles */
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.map-embed {
+  border-radius: 8px; /* Rounded corners for the map iframe */
+  overflow: hidden; /* Hide any overflow from the iframe */
+  border: 1px solid #ddd; /* Light border around the map */
+}
+
+iframe {
+  border: none; /* Remove default iframe border */
+  border-radius: 8px; /* Apply rounded corners to the iframe itself */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the iframe */
+}
+
 
 @media screen and (min-width: 375px){
   .Menu{

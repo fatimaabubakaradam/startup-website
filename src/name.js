@@ -1,6 +1,7 @@
 import React from 'react';
 import Whether from "./asset/ghhgnhg 1.png";
 import { motion } from 'framer-motion';
+import Map from './map';
 
 const Name = () => {
   return (
@@ -23,6 +24,7 @@ const Name = () => {
 
     <label>Message</label>
     <textarea placeholder="Write your message here"></textarea>
+    
 
           <button type="submit">Submit</button>
         </form>

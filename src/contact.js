@@ -11,6 +11,7 @@ return (
     <main>
      <Us />
      <Name />
+     
    </main>
    <Footer />
  </div>
