@@ -96,7 +96,7 @@ margin-bottom: 20px; */
   border-radius: 6px; 
   cursor: pointer; 
   height: 60px;
-  width: 100px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -160,6 +160,7 @@ font-size: 15px;
 }
 .learn-button3:hover{
   transform: scale(1.1);
+  color:  g;
 }
 .Group{
   width: 300px;
@@ -260,7 +261,7 @@ font-size: 15px;
   width: 150px;
 }
 .button-class{
-  display: flex;
+  display: flex; 
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
@@ -405,29 +406,29 @@ button:hover {
 
 .map-title {
   font-size: 24px;
-  color: #333; /* Dark text color */
+  color: #333; 
   text-align: center;
   margin-bottom: 20px;
 }
 
 .map-subtitle {
   font-size: 20px;
-  color: #444; /* Slightly lighter text for subtitles */
+  color: #444; 
   text-align: center;
   margin-top: 40px;
   margin-bottom: 15px;
 }
 
 .map-embed {
-  border-radius: 8px; /* Rounded corners for the map iframe */
-  overflow: hidden; /* Hide any overflow from the iframe */
-  border: 1px solid #ddd; /* Light border around the map */
+  border-radius: 8px; 
+  overflow: hidden; 
+  border: 1px solid #ddd; 
 }
 
 iframe {
-  border: none; /* Remove default iframe border */
-  border-radius: 8px; /* Apply rounded corners to the iframe itself */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the iframe */
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -604,6 +605,23 @@ justify-content: center;
     flex-direction: row;
   }
   
+}
+@media screen and (min-width: 1234px){
+  .whe-container{
+    transform: translateX(300%);
+  
+
+    width: 300px;
+  }
+  .header{
+    width: 1500px;
+    
+  }
+  .footer{
+    width: 1500px;
+  }
+
+ 
 }
 @media screen and (min-width: 1440px){
   .whe-container{
