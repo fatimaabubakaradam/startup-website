@@ -516,6 +516,12 @@ iframe {
   .Menu{
     display: none;
   }
+  /* .learn-button2{
+    width: 400px;
+  } */
+  .learn-button3{
+    width: 200px;
+  }
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -605,8 +611,9 @@ justify-content: center;
     display: flex;
     flex-direction: row;
   }
-  
+ 
 }
+
 @media screen and (min-width: 1234px){
   .whe-container{
     transform: translateX(300%);
