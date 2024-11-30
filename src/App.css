@@ -87,6 +87,7 @@ margin-bottom: 20px; */
 }
 .explore-button:hover {
   transform: scale(1.1); 
+  
 }
 .learn-button2{
   background-color: #2e2e2e; 
