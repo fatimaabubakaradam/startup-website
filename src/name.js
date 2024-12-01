@@ -1,6 +1,7 @@
 import React from 'react';
 import Whether from "./asset/ghhgnhg 1.png";
 import { motion } from 'framer-motion';
+import Map from './map';
 
 const Name = () => {
   return (
@@ -15,14 +16,15 @@ const Name = () => {
       </div>
       <div className="contact-form">
         <form>
-          <label>Name</label>
-          <input type="text" />
+        <label>Name</label>
+    <input type="text" placeholder="Enter your name" />
 
-          <label>Email</label>
-          <input type="email" />
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" />
 
-          <label>Message</label>
-          <textarea></textarea>
+    <label>Message</label>
+    <textarea placeholder="Write your message here"></textarea>
+    
 
           <button type="submit">Submit</button>
         </form>

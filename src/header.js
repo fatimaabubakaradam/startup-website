@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Group1 from './asset/Group 1.png';
 import Vector from './asset/Vector.png';
 import Group from './asset/Group.png';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -31,8 +32,19 @@ const Header = () => {
         </ul>
       </nav>
       <div className="welcome-section">
-        <div className='group-container'>      <img src={Group} alt="Group" className="Group" /></div>
-          <div className='wel-container'>
+      <motion.div 
+        className="group-container"
+        initial={{ x: 100, opacity: 0 }} 
+        animate={{ x: 0, opacity: 1 }} 
+        transition={{ duration: 1 }} 
+      >
+        <motion.img
+          src={Group}
+          alt="Group"
+          className="Group"  
+        />
+      </motion.div>        
+        <div className='wel-container'>
              <h2>Welcome</h2>
              <h1>Lorem ipsum dolor sit amet consectetur</h1>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab dolor aperiam nobis cum set cos error ipsum,volimptate culpan nesciunt delectus iste?</p>

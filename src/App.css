@@ -79,10 +79,15 @@ margin-bottom: 20px; */
   border-radius: 6px; 
   cursor: pointer; 
   height: 60px;
-  width: 200px;
+  width: 250px;
   transform: translateY(0%);
   margin-left: 30px;
   margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+.explore-button:hover {
+  transform: scale(1.1); 
+  
 }
 .learn-button2{
   background-color: #2e2e2e; 
@@ -92,12 +97,17 @@ margin-bottom: 20px; */
   border-radius: 6px; 
   cursor: pointer; 
   height: 60px;
-  width: 100px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
   text-align: center; 
+  transition: transform 0.2s ease;
+
+}
+.learn-button2:hover{
+  transform: scale(1.1); 
 }
 .welcome-section h2{
 font-size: 15px;
@@ -147,6 +157,11 @@ font-size: 15px;
   cursor: pointer; 
   height: 60px;
   width: 100px;
+  transition: transform 0.2s ease;
+}
+.learn-button3:hover{
+  transform: scale(1.1);
+  color:  g;
 }
 .Group{
   width: 300px;
@@ -247,11 +262,12 @@ font-size: 15px;
   width: 150px;
 }
 .button-class{
-  display: flex;
+  display: flex; 
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  text-align: center; 
+  text-align: center;
+     transition: transform 0.2s ease;
 }
 .mail-con{
   display: flex;
@@ -372,11 +388,51 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 button:hover {
   background-color: #555;
+    transform: scale(1.1); /* Button enlarges on hover */
+  }
+  /* SimpleMap.css */
+
+.map-container {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light gray background for the map section */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the map container */
+  margin-top: 30px;
 }
+
+.map-title {
+  font-size: 24px;
+  color: #333; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.map-subtitle {
+  font-size: 20px;
+  color: #444; 
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.map-embed {
+  border-radius: 8px; 
+  overflow: hidden; 
+  border: 1px solid #ddd; 
+}
+
+iframe {
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
 @media screen and (min-width: 375px){
   .Menu{
     margin-left: 330px;
@@ -459,6 +515,12 @@ button:hover {
 @media screen and (min-width: 1025px){
   .Menu{
     display: none;
+  }
+  /* .learn-button2{
+    width: 400px;
+  } */
+  .learn-button3{
+    width: 200px;
   }
   .nav-links {
     display: flex;
@@ -549,7 +611,25 @@ justify-content: center;
     display: flex;
     flex-direction: row;
   }
+ 
+}
+
+@media screen and (min-width: 1234px){
+  .whe-container{
+    transform: translateX(300%);
   
+
+    width: 300px;
+  }
+  .header{
+    width: 1500px;
+    
+  }
+  .footer{
+    width: 1500px;
+  }
+
+ 
 }
 @media screen and (min-width: 1440px){
   .whe-container{
